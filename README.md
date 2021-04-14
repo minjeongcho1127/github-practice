@@ -11,7 +11,7 @@
     git config -g user.name "(My name)"
     git config -g user.email "(My email address)"
     
-> Basic Git (*** need to change)
+> Basic Git
 
     git status
     git add -A
@@ -30,9 +30,16 @@
 ## GitHub commands
 
 > Basic GitHub
-
     
-
+    git remote add (Remote name) (GitHun Repository Address)
+    git remote
+    git push -u (Remote name) (Branch name)
+    git clone (Remote name)
+    git fetch
+    git pull (Remote name) (Branch name)
+    git branch -a
+    git checkout -b (New branch name) (Remote name)/(Remote branch name)
+    git push -d (Remote name) (Branch name)
 
 Reference:
 [yalco Git](https://www.yalco.kr/25_git_tutorial_1/),
