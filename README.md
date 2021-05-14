@@ -11,6 +11,8 @@ start the Jupyter server inside the container:
 
     $ docker run --rm -p 8888:8888 -v "$PWD":/home/jovyan/work jupyter/datascience-notebook
 
+> Go to the URL printed on the screen and done!
+
 ## Run Docker images by using 'docker-compose up' and open Jupyter notebooks
 > Prepare the image (once)
 Pull the image from [Docker Hub](https://hub.docker.com/r/ageron/handson-ml2):
@@ -29,7 +31,7 @@ start the Jupyter server inside the container:
     $ cd /corresponding_path/docker
     $ docker-compose up
     
-Go to the URL printed on the screen and done!
+> Go to the URL printed on the screen and done!
   
 Reference: 
 [Hands-on Machine Learning GitHub](https://github.com/ageron/handson-ml2/tree/master/docker),
